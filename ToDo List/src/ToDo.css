@@ -1,0 +1,26 @@
+.ToDo {
+    height: 60px;
+    /* width: 100%; */
+    width: 450px;   
+    background-color: rgb(185, 106, 255);
+    color: white;
+    padding-inline: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ToDo p  {
+    padding-inline: 5px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.ToDo:hover {
+    cursor:pointer;
+}
+
+.ToDo-operations {
+    gap: 15px;
+    font-size: 17px;
+}
