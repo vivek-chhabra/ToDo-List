@@ -1,5 +1,33 @@
-.App {
-    padding: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Mukta:wght@200;400&family=Nunito:wght@200;300;400;700;900&family=Poppins:wght@300;400&family=Rubik:wght@300;400&family=Tsukimi+Rounded:wght@300;400;500;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+
+/* utility classes */
+
+.flex {
     display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* utility classes end */
+
+.App {
     justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d7aaff;
 }
