@@ -1,0 +1,32 @@
+.NewToDoForm {
+    padding-inline: 50px;
+    padding-block: 10px;
+    background-color: #9f5bdb;
+    border-radius: 0 0 10px 10px;
+}
+
+.NewToDoForm-add-todo form {
+    gap: 5px;
+}
+
+.NewToDoForm-add-todo input {
+    padding: 5px 10px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #ebd4ff;
+    border: none;
+}
+
+.NewToDoForm-add-todo button {
+    border-radius: 5px;
+    font-size: 90%;
+    height: 31px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: #ebd4ff;
+    color: #3b2151;
+    font-weight: 600;
+}
