@@ -35,7 +35,7 @@
 @media (max-width: 600px) {
     .ToDoList {
         scale: 0.9;
-        min-width: 400px;
+        min-width: 90% !important;
     }
 
     .ToDoList-head,
@@ -43,11 +43,25 @@
         padding-inline: 25px !important;
     }
 
+    .ToDoList-head h1 {
+        font-size: 160%;
+    }
+
+    .NewToDoForm-add-todo form {
+        width: 100%;
+    }
+
     .NewToDoForm-add-todo button {
         height: 40px !important;
+        width: 50% !important;
     }
 
     .NewToDoForm-add-todo input {
         padding: 10px 10px !important;
+        width: 100%;
+    }
+
+    .ToDo {
+        padding-inline: 20px !important;
     }
 }
