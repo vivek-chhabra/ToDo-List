@@ -1,0 +1,33 @@
+.ToDoList {
+    min-width: 450px;
+    /* height: ; */
+    background-color: #623d81;
+    color: white;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    gap: 15px;
+    box-shadow: 1px 1px 50px #2c193c;
+}
+
+.ToDoList-head {
+    background-color: #9f5bdb;
+    border-radius: 10px 10px 0 0;
+    padding-inline: 50px;
+    padding-block: 5px;
+}
+
+.list {
+    margin-inline: 10px;
+    gap: 10px;
+}
+
+.ToDoList-head h1 {
+    font-size: 180%;
+}
+
+.ToDoList-head p {
+    font-size: 90%;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
