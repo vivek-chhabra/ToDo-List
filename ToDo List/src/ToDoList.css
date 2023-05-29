@@ -31,3 +31,9 @@
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
+
+@media (max-width: 600px) {
+    .ToDoList {
+        scale: .9;
+    }
+}
